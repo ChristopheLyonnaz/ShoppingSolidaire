@@ -1,0 +1,98 @@
+/************************************/
+/*         TAG STYLES               */
+/************************************/
+
+body {
+  background-color: #ccedd2;
+  /*background: url('https://source.unsplash.com/qgHGDbbSNm8') no-repeat center center fixed;*/
+}
+
+h1 {
+  color: #655c56;
+  font-family: apercu;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h3 {
+  color: #655c56;
+  font-family: apercu;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: #655c56;
+  font-family: apercu;
+  font-weight: bold;
+  text-align: center;
+}
+
+th {
+  color: #655c56;
+  font-family: apercu;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  color: #655c56;
+  font-family: apercu;
+  text-align: center;
+}
+
+li {
+  color: #655c56;
+  font-family: apercu;
+}
+
+label {
+  color: #655c56;
+  font-family: apercu;
+  text-align: center;
+}
+
+hr {
+  width: 5%;
+  border-style: none;
+  border-top: dotted;
+  border-color: #94d3ac;
+  border-width: 5px;
+}
+
+
+
+
+/************************************/
+/*         CLASS STYLES             */
+/* Many Class can be used           */
+/************************************/
+
+.circular {
+  border-radius: 100%;
+  width: 40% ;
+}
+
+.circular_bis {
+  border-radius: 100%;
+  width: 10% ;
+}
+
+.top_td {
+    color: #655c56;
+    font-family: apercu;
+    width: 30%;
+  }
+
+.intermediate_td {
+    color: #655c56;
+    font-family: apercu;
+    width: 50%;
+  }
+
+
+
+/************************************/
+/*         IDs STYLES               */
+/* Only one ID can be used          */
+/************************************/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Solidaire</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+  <body>
+    <h3>
+      Vous êtes disponibles pour aider vos voisins. Merci à vous !
+      <br>
+      Indiquez la date à laquelle vous comptez aller faire vos courses dans le formulaire ci-dessous.
+    </h3>
+    <form action="mailto:christophe.lyonnaz@gmail.com" method="post" enctype="text/plain">
+
+      <label>Prénom: </label>
+      <input type="text" name="userFirstName">
+      <br><br>
+
+      <label>Adresse mail: </label>
+      <input type="email" name="userEmail">
+      <br><br>
+
+      <label>Adresse postale: </label>
+      <br>
+      <textarea rows="8" cols="60" name="userAddress"></textarea>
+      <br><br>
+
+      <label>Indiquer la date et l'heure prévue pour votre shopping: </label><br>
+      <input type=date name="userDate">
+      <input type=time name="userTime">
+
+      <br><br>
+      <input type="submit">
+    </form>
+    <br><hr><br>
+
+    <p><a href="../index.html">Retour à la page principale</a></p>
+
+  </body>
+</html>
